@@ -10,25 +10,51 @@
     <title>Dyson</title>
 </head>
 <body>
-   <header class="header">
-  <nav class="header__nav">
-    <button class="nav__burger" aria-label="Открыть меню">
-      <span></span><span></span><span></span>
-    </button>
-    <a href="#" class="nav__logo">
-        <img src="./img/icons/logo-website.svg" alt="">
-    </a>
-    <ul class="nav__menu">
-      <li><a href="#">О нас</a></li>
-      <li><a href="#">Доставка и оплата</a></li>
-      <li><a href="#">Регистрация продукта</a></li>
-      <li><a href="#">Сервис</a></li>
-      <li><a href="#">Сертификаты и лицензии</a></li>
-    </ul>
-    <button class="nav__icon" aria-label="Личный кабинет">
+<header class="header">
+  <div class="contaner">
+    <div class="header__inner">
+       <button class="burger" type="button" aria-label="open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <a class="header__logo">
+        <img src="./img/icons/logo-website.svg" alt="logo-website">
+      </a>
+     <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#">
+            О нас
+            </a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#">
+            Доставка и оплата
+            </a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#">
+            Регистрация продукта
+            </a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#">
+            Сервис
+            </a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#">
+            Сертификаты и лицензии
+            </a>
+          </li>
+        </ul>
+     </nav>
+     <div class="header__shop-img">
       <img src="./img/icons/Stroke 2_shopping-bag.svg" alt="">
-    </button>
-  </nav>
+     </div>
+    </div>
+  </div>
 </header>
 
 
