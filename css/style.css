@@ -103,3 +103,66 @@ position: fixed; top: 0; left: 0; width: 100%;
     transform: translateY(0);
   }
 }
+
+
+
+.haircare {
+  background:rgba(221, 221, 221, 1);;
+  padding: 100px 5px 0;
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.haircare__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.haircare__content img {
+     width: 600px;
+    height: 500px;
+}
+.haircare__text {
+  max-width: 460px;
+}
+.haircare__text h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 18px;
+  color: #222;
+}
+.haircare__text p {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 28px;
+}
+.haircare__btn {
+  display: inline-block;
+  padding: 12px 32px;
+  background: #d12a78;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+.haircare__btn:hover {
+  background: #b91e5c;
+}
+
+
+@media (max-width: 900px) {
+  .haircare__content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .haircare__image {
+    margin-top: 32px;
+  }
+}
+
+
+
